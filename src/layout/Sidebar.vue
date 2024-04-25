@@ -126,12 +126,14 @@ let handleWindowResize = () => {
                                 <p>Sign In</p>
                             </div>
                         </router-link>
+                        <!--
                         <router-link to="/signUp" tag="li" class="nav-item">
                             <div class="nav-item-hold">
                                 <i class="i-Checked-User text-3xl"></i>
                                 <p>Sign Up</p>
                             </div>
                         </router-link> 
+                        -->
                     </ul>
                 </perfect-scrollbar>
             </div>
@@ -141,7 +143,7 @@ let handleWindowResize = () => {
 
 <style lang="scss" scoped>
 .nav-item.router-link-exact-active {
-    @apply text-purple-500;
+    @apply text-blue-500;
 
     &:after {
         content: '';
@@ -151,7 +153,7 @@ let handleWindowResize = () => {
         bottom: -15px;
         right: -15px;
         transform: rotate(45deg);
-        @apply bg-purple-500;
+        @apply bg-blue-500;
     }
 }
 .submenuLi {
@@ -166,10 +168,10 @@ let handleWindowResize = () => {
 }
 .submneu-nested-link {
     padding: 0 !important;
-    color: #000 !important;
+    color: blue !important;
     &:hover {
         background-color: transparent !important;
-        color: #8b5cf6 !important;
+        color: blue !important;
     }
 }
 .side-content-wrap {
@@ -207,7 +209,7 @@ let handleWindowResize = () => {
                 cursor: pointer;
                 &:hover {
                     .nav-item-hold {
-                        @apply text-purple-500;
+                        @apply text-blue-500;
                     }
                     &:after {
                         content: '';
@@ -217,12 +219,12 @@ let handleWindowResize = () => {
                         bottom: -15px;
                         right: -15px;
                         transform: rotate(45deg);
-                        @apply bg-purple-500;
+                        @apply bg-blue-500;
                     }
                 }
 
                 &.active {
-                    @apply text-purple-500;
+                    @apply text-blue-500;
 
                     &:after {
                         content: '';

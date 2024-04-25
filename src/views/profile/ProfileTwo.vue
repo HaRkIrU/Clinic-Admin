@@ -15,7 +15,7 @@
     <BaseCard noPadding class="user-profile overflow-hidden relative">
         <div class="header-cover"></div>
         <div class="flex justify-center z-10 -m-10">
-            <div class="text-center"><img class="relative z-1 w-20 h-20 m-auto rounded-full border-2 border-white" src="/images/faces/1.jpg" />
+            <div class="text-center"><img class="relative z-1 w-20 h-20 m-auto rounded-full border-2 border-white" src="/images/SNA_logo.png" />
                 <p class="text-2xl">Timothy Carlson</p>
                 <p class="text-gray-600">Digital Marketer</p>
             </div>

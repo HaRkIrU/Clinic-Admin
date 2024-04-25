@@ -1,7 +1,4 @@
 <script setup>
-import { onMounted, ref, watch, watchEffect } from 'vue'
-import { Switch } from '@headlessui/vue'
-import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
 import { useStore } from 'vuex'
 
 let store = useStore()
@@ -23,7 +20,7 @@ const sideBarToggle = () => {
             <div class="logo flex justify-center">
                 <img
                 class="avatar-md mr-2 rounded w-20 h-20"
-                src="../assets/images/SNA-logo.png"
+                src="/images/SNA_logo.png"
                 alt="SNA Logo"
                 />
             </div>
@@ -67,6 +64,7 @@ const sideBarToggle = () => {
     height: 80px;
     z-index: 100;
     box-shadow: 0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%);
+    background-color: white;
 }
 
 </style>

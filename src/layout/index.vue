@@ -21,7 +21,6 @@ let store = useStore();
                 <div>
                     <router-view />
                 </div>
-                
                 <Footer />
             </div>
         </main>

@@ -8,7 +8,7 @@ export default {}
             <BaseCard class="">
                 <div class="flex justify-between items-center">
                     <div>
-                        <p>All rights reserved © Gordon College</p>
+                        <p><b>All Rights Reserved</b> © Saint Nicholas Academy 2024</p>
                     </div>
                 </div>
             </BaseCard>

@@ -37,7 +37,7 @@
                     <div class="flex flex-col items-center mb-4 md:flex-row">
                         <img
                         class="avatar-md mr-2 rounded w-20 h-20"
-                        src=""
+                        src="/images/user_icon.jpg"
                         alt="Student Picture"
                     />
                         <div class="flex-grow text-center md:text-left">
@@ -65,7 +65,7 @@
                     <div class="flex flex-col items-center mb-4 md:flex-row">
                         <img
                         class="avatar-md mr-2 rounded w-20 h-20"
-                        src=""
+                        src="/images/user_icon.jpg"
                         alt="Student Picture"
                     />
                         <div class="flex-grow text-center md:text-left">
@@ -93,7 +93,7 @@
                     <div class="flex flex-col items-center mb-4 md:flex-row">
                         <img
                             class="avatar-md mr-2 rounded w-20 h-20"
-                            src=""
+                            src="/images/user_icon.jpg"
                             alt="Student Picture"
                         />
                         <div class="flex-grow text-center md:text-left">
@@ -142,7 +142,7 @@
                     <div class="flex flex-col items-center mb-4 md:flex-row">
                         <img
                         class="avatar-md mr-2 rounded w-20 h-20"
-                        src=""
+                        src="/images/user_icon.jpg"
                         alt="Student Picture"
                     />
                         <div class="flex-grow text-center md:text-left">
@@ -170,7 +170,7 @@
                     <div class="flex flex-col items-center mb-4 md:flex-row">
                         <img
                         class="avatar-md mr-2 rounded w-20 h-20"
-                        src=""
+                        src="/images/user_icon.jpg"
                         alt="Student Picture"
                     />
                         <div class="flex-grow text-center md:text-left">
@@ -198,7 +198,7 @@
                     <div class="flex flex-col items-center mb-4 md:flex-row">
                         <img
                             class="avatar-md mr-2 rounded w-20 h-20"
-                            src=""
+                            src="/images/user_icon.jpg"
                             alt="Student Picture"
                         />
                         <div class="flex-grow text-center md:text-left">

@@ -24,10 +24,10 @@
             >
                 <BaseCard>
                     <div class="flex align-center">
-                        <i class="i-Add-User text-6xl text-purple-200"></i>
+                        <i class="i-Add-User text-6xl text-blue-200"></i>
                         <div class="m-auto">
                             <p class="text-gray-400">Total Patients</p>
-                            <p class="text-xl text-primary">205</p>
+                            <p class="text-xl text-blue-500">205</p>
                         </div>
                     </div>
                 </BaseCard>
@@ -43,10 +43,10 @@
             >
                 <BaseCard>
                     <div class="flex align-center">
-                        <i class="i-Students text-6xl text-purple-200"></i>
+                        <i class="i-Students text-6xl text-green-200"></i>
                         <div class="m-auto">
                             <p class="text-gray-400">Total Students</p>
-                            <p class="text-xl text-primary">400</p>
+                            <p class="text-xl text-green-500">400</p>
                         </div>
                     </div>
                 </BaseCard>
@@ -63,11 +63,11 @@
                 <BaseCard>
                     <div class="flex align-center">
                         <i
-                            class="i-Calendar-2 text-6xl text-purple-200"
+                            class="i-Calendar-2 text-6xl text-yellow-200"
                         ></i>
                         <div class="m-auto">
                             <p class="text-gray-400">Total Appointments</p>
-                            <p class="text-xl text-primary">232</p>
+                            <p class="text-xl text-yellow-500">232</p>
                         </div>
                     </div>
                 </BaseCard>
@@ -83,10 +83,10 @@
             >
                 <BaseCard>
                     <div class="flex align-center">
-                        <i class="i-Checked-User text-6xl text-purple-200"></i>
+                        <i class="i-Checked-User text-6xl text-pink-200"></i>
                         <div class="m-auto">
                             <p class="text-gray-400">Complied Students</p>
-                            <p class="text-xl text-primary">102</p>
+                            <p class="text-xl text-pink-500">102</p>
                         </div>
                     </div>
                 </BaseCard>
@@ -99,7 +99,7 @@
             </div>
             <div class="col-span-12 xl:col-span-4 md:col-span-6">
                 <BaseCard>
-                    <h4 class="card-title mb-4">Total Users & Patients</h4>
+                    <h4 class="card-title mb-4">Total Students & Patients</h4>
                      <apexchart type="pie" height="300" width="300" :options="dashboardTwo.chartOptions" :series="dashboardTwo.series"></apexchart>
                 </BaseCard>
             </div>

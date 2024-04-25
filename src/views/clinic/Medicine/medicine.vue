@@ -81,7 +81,7 @@
                                                     font-semibold
                                                 "
                                             >
-                                                Number
+                                                Product ID
                                             </th>
                                             
                                             <th
@@ -94,7 +94,7 @@
                                                     font-semibold
                                                 "
                                             >
-                                                Student ID
+                                                Product Name
                                             </th>
                                             <th
                                                 class="
@@ -106,7 +106,7 @@
                                                     font-semibold
                                                 "
                                             >
-                                                Last Name
+                                                Quantity
                                             </th>
                                             <th
                                                 class="
@@ -118,43 +118,7 @@
                                                     font-semibold
                                                 "
                                             >
-                                               First Name
-                                            </th>
-                                            <th
-                                                class="
-                                                    text-center 
-                                                    border-b
-                                                    pb-3
-                                                    mb-3
-                                                     text-gray-500
-                                                    font-semibold
-                                                "
-                                            >
-                                                Middle Name
-                                            </th>
-                                            <th
-                                            class="
-                                                text-center 
-                                                border-b
-                                                pb-3
-                                                mb-3
-                                                 text-gray-500
-                                                font-semibold
-                                            "
-                                        >
-                                            Section
-                                        </th>
-                                            <th
-                                                class="
-                                                    text-center
-                                                    border-b
-                                                    pb-3
-                                                    mb-3
-                                                     text-gray-500
-                                                    font-semibold
-                                                "
-                                            >
-                                                Year Level
+                                               Date Procured
                                             </th>
                                         </tr>
                                     </thead>
@@ -173,13 +137,10 @@
                                             <td class="text-xs py-5 px-4 text-center">{{index+1}}</td>
                                             
                                           
-                                            <td class="py-5  text-center"> {{index+20211101}} </td>
+                                            <td class="py-5  text-center"> Paracetamol Tablet </td>
 
-                                            <td class="py-5 text-center">Avory</td>
-                                            <td class="py-5 text-center">Marcus</td>
-                                            <td class="py-5 text-center">Dominic</td>
-                                            <td class="py-5 text-center">A</td>
-                                            <td class="py-5 text-center">Grade 7</td>
+                                            <td class="py-5 text-center">100</td>
+                                            <td class="py-5 text-center">12/25/20</td>
                                             <!-- 
                                             <td class="py-5  text-center">
                                                 <span

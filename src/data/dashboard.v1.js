@@ -16,7 +16,7 @@ import {
       },
     ],
     chartOptions: {
-      colors: ['#8b5cf6'],
+      colors: ['#ec4899'],
       chart: {
         type: 'bar',
         height: 350,
@@ -112,7 +112,7 @@ export const dashboardTwo = {
   series: [320, 423],
   chartOptions: {
     fill: {
-      colors: ['#8B5CF6', '#A78BFA'],
+      colors: ['#3b82f6', '#22c55e'],
     },
     chart: {
       width: '100%',
